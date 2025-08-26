@@ -1,20 +1,55 @@
 :root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #EEEEEE;
-    --text-color: #000000;
+            --primary-color: #FFFFFF;
+            --secondary-color: #EEEEEE;
+            --text-color: #000000;
+            --accent-color: #006db7;
+            --border-color: #e0e0e0;
 }
-body {
-    background-color:var(--primary-color);
-    color:var(--text-color);
-    font-family: Arial, sans-serif;
+        
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-header {
-    background-color:var(--primary-color);
-    width: fixed(1.168px);
-    height: hug(64px);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+        
+        body {
+        }
+        
+        header {
+            display: vertical;
+            background-color: var(--primary-color);
+            width: 1920px; 
+            height: 208px;
+            padding-top: 20px;
+            gap: 20px;
+        }
+        
+        .header-container {
+            display: horizontal; 
+            width: 1168px;
+            height: 64px;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            width: 204px; 
+            height: 64px;
+        }
+        
+        .contact-info {
+        }
+        
+        .contact {
+        }
+        
+        .contact i {
+        }
+        
+        .contact a {
+        }
+        
+        .contact a:hover {
+        }
+        
+        .city-button {
+        }
